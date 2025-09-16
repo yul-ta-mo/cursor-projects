@@ -13,7 +13,7 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="header__top">
+        <div class="header__top header__top-pad">
             <div class="header__top-content">
                 <span class="header__top-text">Get your dream house in a week.</span>
                 <span class="material-icons header__top-icon">close</span>
@@ -27,32 +27,41 @@
                     <img src="icons/logo-text.svg" alt="Realco" class="header__logo-text">
                 </div>
                 
-                <nav class="header__nav">
-                    <div class="header__nav-item">
+                
+                
+
+                <div class="header__nav-right">
+                    <nav class="header__nav">
+                    
+                    
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <span class="header__nav-text">Home</span>
+                            </li>
+                            <li class="header__nav-item">
+                                <span class="header__nav-text">Properties</span>
+                                <span class="material-icons header__nav-arrow">expand_more</span>
+                            </li>
+                            <li class="header__nav-item">
+                                <span class="header__nav-text">About</span>
+                            </li>
+                            
+                            <li class="header__nav-item">
+                                <span class="header__nav-text">Contact</span>
+                            </li>
+                            <li class="header__nav-item">
+                                <span class="material-icons header__nav-icon">search</span>
+                                <span class="header__nav-text">Search</span>
+                            </li>
+                        </ul>
+                        
+                    </nav>
+                    <div class="header__nav-item header__cart">
                         <span class="material-icons header__nav-icon">shopping_bag</span>
                         <span class="header__nav-text">Cart</span>
                     </div>
-                    
-                    <ul class="header__nav-list">
-                        <li class="header__nav-item">
-                            <span class="header__nav-text">Properties</span>
-                            <span class="material-icons header__nav-arrow">expand_more</span>
-                        </li>
-                        <li class="header__nav-item">
-                            <span class="header__nav-text">About</span>
-                        </li>
-                        <li class="header__nav-item">
-                            <span class="material-icons header__nav-icon">search</span>
-                            <span class="header__nav-text">Search</span>
-                        </li>
-                        <li class="header__nav-item">
-                            <span class="header__nav-text">Home</span>
-                        </li>
-                        <li class="header__nav-item">
-                            <span class="header__nav-text">Contact</span>
-                        </li>
-                    </ul>
-                </nav>
+                    <button class="header__search-button">Find a property</button>
+                </div>
             </div>
         </div>
     </header>
@@ -61,30 +70,31 @@
     <section class="hero">
         <div class="hero__container">
             <div class="hero__content">
-                <div class="hero__badge">
-                    <span class="hero__badge-text">Find your dream place</span>
-                </div>
-                
-                <h1 class="hero__title">Find house for your family in minutes</h1>
-                
-                <p class="hero__description">
-                    Aenean sodales mauris quis tellus facilisis, vel mattis magna. Interdum curabitur eget aliquam elit in mauris purus.
-                </p>
-                
-                <div class="hero__search">
-                    <div class="hero__search-input">
-                        <span class="material-icons hero__search-icon">search</span>
-                        <input type="text" placeholder="Search" class="hero__search-field">
+                <div class="hero__content-text">
+                    <div class="hero__badge">
+                        <span class="hero__badge-text">Find your dream place</span>
                     </div>
-                    <button class="hero__search-button">Find property</button>
+                    
+                    <h1 class="hero__title">Find house for your family in minutes</h1>
+                    
+                    <p class="hero__description">
+                        Aenean sodales mauris quis tellus facilisis, vel mattis magna. Interdum curabitur eget aliquam elit in mauris purus.
+                    </p>
+                    
+                    <div class="hero__search">
+                        <div class="hero__search-input">
+                            <span class="material-icons hero__search-icon">search</span>
+                            <input type="text" placeholder="Search" class="hero__search-field">
+                        </div>
+                        <button class="hero__search-button">Find property</button>
+                    </div>
                 </div>
                 
-                <div class="hero__decorations">
-                    <img src="icons/decorative-1.svg" alt="" class="hero__decoration hero__decoration--left">
-                    <img src="icons/decorative-2.svg" alt="" class="hero__decoration hero__decoration--right">
-                </div>
             </div>
-            
+            <div class="hero__decorations">
+                <img src="icons/decorative-1.svg" alt="" class="hero__decoration hero__decoration--left">
+                <img src="icons/decorative-2.svg" alt="" class="hero__decoration hero__decoration--right">
+            </div>
             <div class="hero__image">
                 <img src="images/hero-image.png" alt="Beautiful house" class="hero__img">
             </div>
@@ -96,17 +106,10 @@
         <div class="media__container">
             <div class="media__logos">
                 <img src="icons/star.svg" alt="Logo" class="media__logo">
-                <img src="icons/star.svg" alt="Logo" class="media__logo">
-                <img src="icons/star.svg" alt="Logo" class="media__logo">
-                <img src="icons/star.svg" alt="Logo" class="media__logo">
-                <img src="icons/star.svg" alt="Logo" class="media__logo">
-                <img src="icons/star.svg" alt="Logo" class="media__logo">
-                <img src="icons/star.svg" alt="Logo" class="media__logo">
-                <img src="icons/star.svg" alt="Logo" class="media__logo">
-                <img src="icons/star.svg" alt="Logo" class="media__logo">
-                <img src="icons/star.svg" alt="Logo" class="media__logo">
-                <img src="icons/star.svg" alt="Logo" class="media__logo">
-                <img src="icons/star.svg" alt="Logo" class="media__logo">
+                <img src="icons/star2.svg" alt="Logo" class="media__logo">
+                <img src="icons/star3.svg" alt="Logo" class="media__logo">
+                <img src="icons/star4.svg" alt="Logo" class="media__logo">
+                <img src="icons/star5.svg" alt="Logo" class="media__logo">
             </div>
             <p class="media__text">As seen on the world's best magazines and media</p>
         </div>
@@ -253,8 +256,9 @@
                         <img src="images/property-1.png" alt="Cozy studio in Los Angeles" class="property-card__img">
                     </div>
                     <div class="property-card__content">
-                        <div class="property-card__price">$ 1,200.00 USD</div>
                         <h3 class="property-card__title">Cozy studio in Los Angeles</h3>
+                        <div class="property-card__price">$ 1,200.00 USD</div>
+                        
                         <div class="property-card__location">
                             <span class="material-icons property-card__location-icon">place</span>
                             <span class="property-card__location-text">2263 Southlea, Los Angeles</span>
@@ -282,8 +286,9 @@
                         <img src="images/property-2.png" alt="Tiny home in San Diego" class="property-card__img">
                     </div>
                     <div class="property-card__content">
-                        <div class="property-card__price">$ 740,000.00 USD</div>
                         <h3 class="property-card__title">Tiny home in San Diego</h3>
+                        <div class="property-card__price">$ 740,000.00 USD</div>
+                        
                         <div class="property-card__location">
                             <span class="material-icons property-card__location-icon">place</span>
                             <span class="property-card__location-text">2569 El Segundo, San Diego</span>
@@ -311,8 +316,9 @@
                         <img src="images/property-3.png" alt="Crown house in New York" class="property-card__img">
                     </div>
                     <div class="property-card__content">
-                        <div class="property-card__price">$ 980,000.00 USD</div>
                         <h3 class="property-card__title">Crown house in New York</h3>
+                        <div class="property-card__price">$ 980,000.00 USD</div>
+                        
                         <div class="property-card__location">
                             <span class="material-icons property-card__location-icon">place</span>
                             <span class="property-card__location-text">4489 Smity Fielda, New York</span>
@@ -340,8 +346,9 @@
                         <img src="images/property-4.png" alt="Family house in Los Angeles" class="property-card__img">
                     </div>
                     <div class="property-card__content">
-                        <div class="property-card__price">$ 4,200.00 USD</div>
                         <h3 class="property-card__title">Family house in Los Angeles</h3>
+                        <div class="property-card__price">$ 4,200.00 USD</div>
+                        
                         <div class="property-card__location">
                             <span class="material-icons property-card__location-icon">place</span>
                             <span class="property-card__location-text">2263 Southlea, Los Angeles</span>
@@ -369,8 +376,9 @@
                         <img src="images/property-5.png" alt="Studio in Las Vegas" class="property-card__img">
                     </div>
                     <div class="property-card__content">
-                        <div class="property-card__price">$ 820,000.00 USD</div>
                         <h3 class="property-card__title">Studio in Las Vegas</h3>
+                        <div class="property-card__price">$ 820,000.00 USD</div>
+                        
                         <div class="property-card__location">
                             <span class="material-icons property-card__location-icon">place</span>
                             <span class="property-card__location-text">2569 Halls Corner, Las Vegas</span>
@@ -398,8 +406,9 @@
                         <img src="images/property-6.png" alt="San Diego story" class="property-card__img">
                     </div>
                     <div class="property-card__content">
-                        <div class="property-card__price">$ 3,700.00 USD</div>
                         <h3 class="property-card__title">San Diego story</h3>
+                        <div class="property-card__price">$ 3,700.00 USD</div>
+                        
                         <div class="property-card__location">
                             <span class="material-icons property-card__location-icon">place</span>
                             <span class="property-card__location-text">2569 El Segundo, San Diego</span>
@@ -605,13 +614,17 @@
     <section class="blog">
         <div class="blog__container">
             <div class="blog__header">
-                <div class="blog__badge">
-                    <span class="blog__badge-text">Blog</span>
+                <div class="blog__header-text">
+                    <div class="blog__badge">
+                        <span class="blog__badge-text">Blog</span>
+                    </div>
+                    <h2 class="blog__title">Latest posts</h2>
+                    <p class="blog__description">
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Praesent efficitur nibh massa morbi sagittis ornare dui in ornare.
+                    </p>
                 </div>
-                <h2 class="blog__title">Latest posts</h2>
-                <p class="blog__description">
-                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Praesent efficitur nibh massa morbi sagittis ornare dui in ornare.
-                </p>
+                
+
                 <button class="blog__button">View all</button>
             </div>
             
@@ -622,8 +635,9 @@
                     </div>
                     <div class="blog-card__content">
                         <div class="blog-card__meta">
-                            <span class="blog-card__date">May 10, 2022</span>
                             <span class="blog-card__category">Trends</span>
+                            <span class="blog-card__date">May 10, 2022</span>
+                            
                         </div>
                         <h3 class="blog-card__title">The 9 best homes in New York</h3>
                         <p class="blog-card__excerpt">
@@ -642,8 +656,9 @@
                     </div>
                     <div class="blog-card__content">
                         <div class="blog-card__meta">
-                            <span class="blog-card__date">May 10, 2022</span>
                             <span class="blog-card__category">DIY</span>
+                            <span class="blog-card__date">May 10, 2022</span>
+                            
                         </div>
                         <h3 class="blog-card__title">How to easily buy a house with Realco</h3>
                         <p class="blog-card__excerpt">
@@ -662,8 +677,9 @@
                     </div>
                     <div class="blog-card__content">
                         <div class="blog-card__meta">
-                            <span class="blog-card__date">May 10, 2022</span>
                             <span class="blog-card__category">DIY</span>
+                            <span class="blog-card__date">May 10, 2022</span>
+                            
                         </div>
                         <h3 class="blog-card__title">Renting houses - complete guide</h3>
                         <p class="blog-card__excerpt">
@@ -741,23 +757,26 @@
                 </div>
             </div>
             
-            <div class="footer__bottom">
-                <div class="footer__social">
-                    <a href="#" class="footer__social-link">
-                        <img src="icons/facebook.svg" alt="Facebook" class="footer__social-icon">
-                    </a>
-                    <a href="#" class="footer__social-link">
-                        <img src="icons/twitter.svg" alt="Twitter" class="footer__social-icon">
-                    </a>
-                    <a href="#" class="footer__social-link">
-                        <img src="icons/linkedin.svg" alt="LinkedIn" class="footer__social-icon">
-                    </a>
-                    <a href="#" class="footer__social-link">
-                        <img src="icons/instagram.svg" alt="Instagram" class="footer__social-icon">
-                    </a>
-                </div>
-                <p class="footer__copyright">© Realco by . Minimal Square .</p>
+            
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">© Realco by Minimal Square</p>
+            <div class="footer__social">
+                <a href="#" class="footer__social-link">
+                    <img src="icons/facebook.svg" alt="Facebook" class="footer__social-icon">
+                </a>
+                <a href="#" class="footer__social-link">
+                    <img src="icons/instagram.svg" alt="Instagram" class="footer__social-icon">
+                </a>
+                <a href="#" class="footer__social-link">
+                    <img src="icons/twitter.svg" alt="Twitter" class="footer__social-icon">
+                </a>
+                <a href="#" class="footer__social-link">
+                    <img src="icons/linkedin.svg" alt="LinkedIn" class="footer__social-icon">
+                </a>
+                
             </div>
+            
         </div>
     </footer>
 </body>
